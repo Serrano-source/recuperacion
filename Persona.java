@@ -5,6 +5,7 @@ public class Persona {
     private int num_dni;
     private String nom;
     private String adreça;
+    private String telefon;
 
     Persona(int pdni) {
         num_dni = pdni;
@@ -33,5 +34,13 @@ public class Persona {
 
     public setAdreça(String padreça) {
         adreça = padreça;
+    }
+
+    public String getTelefon(){
+        return (telefon);
+    }
+
+    public setTelefon(String atelefon){
+        telefon = atelefon;
     }
 }
